@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="James Coffee Shop">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Have your seat!</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="image/site.webmanifest">
+    <link rel="mask-icon" href="image/safari-pinned-tab.svg" color="#8c2b2b">
+    <meta name="apple-mobile-web-app-title" content="James Coffee Shop">
+    <meta name="application-name" content="James Coffee Shop">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <div class="logo">
+                <a href="index.html"><img id="icon" src="image/logo.jpg" alt="Icon"></a>
+                <a id="name" href="index.html">James Coffee Shop</a>
+            </div>
+
+            <div class="pages">
+                <ul>
+                    <a href="Process.html">Coffee Tales</a>
+                    <a href="Menu.html">Menu</a>
+                    <a href="About.html"> About Us</a>
+                </ul>
+            </div>
+        </header>
+
+        <div class="content_container">
+            <div class="title">
+                <p class="main_title">Book a table!</p>
+            </div>
+
+            <div class="map_container">
+                <fieldset>
+                    <legend>Door</legend>
+                    <table class="map">
+                        <tr></tr>
+                        <tr>
+                            <td class="non_table" rowspan="3">B</td>
+                            <td class="space"></td>
+                            <td class="table">T1</td>
+                            <td></td>
+                            <td class="table">T5</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="space"></td>
+                            <td></td>
+                            <td class="table">T3</td>
+                            <td></td>
+                            <td class="table">T7</td>
+                        </tr>
+                        <tr>
+                            <td class="space"></td>
+                            <td class="table">T2</td>
+                            <td></td>
+                            <td class="table">T6</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="non_table">WC</td>
+                            <td class="space"></td>
+                            <td></td>
+                            <td class="table">T4</td>
+                            <td></td>
+                            <td class="table">T8</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+
+            <div class="form_container">
+                <h2>Reservation Form</h2>
+                <div class="form">
+                    <form>
+                        <label class="info" for="fname">Full name:</label><br>
+                        <input class="input" type="text" id="fname" name="fname" placeholder="Enter your full name." required><br>
+                        
+                        <label class="info" for="Tel">Phone Number:</label><br>
+                        <input class="input" type="tel" name="tel" id="tel" placeholder="Enter your telephone number." required><br>
+                        
+                        <label class="info" for="email">Email:</label><br>
+                        <input class="input" type="email" name="email" id="email" placeholder="Enter your email (optional)."><br>
+                        
+                        <label class="info" for="date">Date of reservation:</label><br>                            
+                        <input class="input" type="date" name="date" id="date" placeholder="Pick a date." required><br>
+                        
+                        <label class="info" for="arriving_time">Time Arriving:</label><br>
+                        <input class="input" type="time" id="arriving_time" placeholder="Select your arriving time." required><br>
+                                                    
+                        <label class="info" for="table">Table:</label><br>
+                        <input class="input" list="tables" id="table" placeholder="Pick your table." required>
+                        <datalist id="tables">
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                                <option value="4"></option>
+                                <option value="5"></option>
+                                <option value="6"></option>
+                                <option value="7"></option>
+                                <option value="8"></option>
+                                <option value="All"></option>
+                        </datalist><br>
+                        
+                        <label class="info" for="ppl">Number of people:</label><br>
+                        <input class="input" list="people" placeholder="Pick the number of people coming.">
+                        <datalist id="people">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                        </datalist>
+
+                        <input class="form_btn" type="submit" value="Submit">
+                        <input class="form_btn" type="reset">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer_container">
+                <div class="foot_grid_container">
+                    <div class="footer_grid">
+                        <div class="contact">
+                            <p>
+                                <strong>Address:</strong> 
+                                British University Vietnam, Ecopark, Xuan Quan, Van Giang, Hung Yen</p>
+                            <p>
+                                <strong>Tel:</strong> 
+                                <ins>(+84) 123 456 789</ins></p>
+                            <p>
+                                <strong>Email:</strong> 
+                                <ins>Hello@jamescoffeeshop.com</ins></p>
+                                 
+                            <p>© 2021 JAMES COFFEE SHOP</p>
+                        </div>
+
+                        <div class="icon_container">
+                            <p class="motto">The art of drinking coffee</p>
+                            <a href="Holding.html">
+                                <img class="sm_icon" src="image/fbicon.jpg" alt="Facebook">
+                                <!-- screenshot picture from personal mobile phone -->
+                            </a>
+                            <a href="Holding.html">
+                                <img class="sm_icon" src="image/igicon.jpg" alt="Instagram">
+                                <!-- screenshot picture from personal mobile phone -->
+                            </a>
+                            <a href="Holding.html">
+                                <img class="sm_icon" src="image/twicon.jpg" alt="Twitter">
+                                <!-- screenshot picture from personal mobile phone -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

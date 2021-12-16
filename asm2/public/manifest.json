@@ -1,0 +1,32 @@
+{
+    "name": "James Coffee Shop",
+    "short_name": "JCS",
+    "starting_url": "https://asm2-2203.web.app/Home.html",
+    "display": "standalone",
+    "background_color": "#DFDFDF",
+    "theme_color": "#DFDFDF",
+    "description": "Welcome To James Coffee Shop!",
+    "icons": 
+    [
+        {
+            "src": "image/favicon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "image/favicon32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "image/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "image/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
